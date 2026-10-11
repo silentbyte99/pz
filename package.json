@@ -1,0 +1,20 @@
+{
+  "name": "pz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:h5": "cross-env UNI_INPUT_DIR=. uni",
+    "build:h5": "cross-env UNI_INPUT_DIR=. uni build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "vue3",
+    "@dcloudio/uni-h5": "vue3",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.1.9"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "vue3",
+    "cross-env": "^10.1.0",
+    "vite": "^5.2.8"
+  }
+}
